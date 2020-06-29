@@ -23,5 +23,6 @@ include '_header.php' ?>
         </form>
     </div>
 </main>
+<script src="../js/bottomScrollbar.js"></script>
 </body>
 </html>
