@@ -1,0 +1,4 @@
+textarea, textarea:focus {
+    width: 100%;
+    border: none;
+}

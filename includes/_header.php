@@ -13,11 +13,12 @@
                     <li><a href="../discussion.php">Chat</a></li>
                     <li><a href="../profil.php">Profil</a></li>
                     <li><a href="../logout.php">Deconnexion</a></li>
+                    <ul class="row-no-wrap align-items-center justify-content-end mr-1">
+                        <li><h2><?= $_SESSION['user']['login']; ?></h2></li>
+                    </ul>
                     <?php
                 endif; ?>
             </ul>
-            <ul class="row-no-wrap align-items-center justify-content-end mr-1">
-                <li><h2><?= $_SESSION['user']['login']; ?></h2></li>
-            </ul>
+
         </div>
 </header>
