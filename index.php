@@ -30,9 +30,7 @@
         <?php else : ?>
             <div class="col-no-wrap m-auto text-center justify-content-center">
                 <h1 class="m-1">Hello, <?= $_SESSION['user']['login']; ?> </h1>
-                <p>Apparament tu es bien connecté(e), tu peux maintenant naviguer sur le site même si tu vas vite faire
-                    le
-                    tour. Tu pourras modifier ton profil et... c'est tout</p>
+                <p>Apparament tu es bien connecté(e), tu peux maintenant te rendre sur le <a href="discussion.php"><strong><em>chat</em></strong></a></p>
             </div>
         <?php endif; ?>
     </div>
