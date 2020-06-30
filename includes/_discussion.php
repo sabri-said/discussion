@@ -18,7 +18,8 @@ include '_header.php' ?>
             <div class="row-no-wrap">
                 <!--                    <label for="chatField"></label>-->
                 <textarea id="chatField" maxlength="140" name="chatField" placeholder="Tapez votre message"></textarea>
-                <button class="btn btn-sm align-self-center mr-1" name="submit" type="submit">Envoyer</button>
+                <button class="btn btn-sm align-self-center mr-1" name="submit" type="submit" data-hover="Envoyer">
+                    <span><i class="fad fa-paper-plane fa-fw fa-lg"></i></span></button>
             </div>
         </form>
     </div>

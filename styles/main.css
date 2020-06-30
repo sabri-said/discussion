@@ -20,6 +20,12 @@
     --cadet-blue: #69A4A2;
     --magnetic-green: #296E6B;
     --delta-green: #2B4A4A;
+    --gold-metallic: #FAECB7;
+    --lemon-curry: #FFE699;
+    --dark-goldenrod: #FBD574;
+    --jet: #333333;
+    --eerie-black: #1C1C1C;
+    --rich-black-fogra: #0A0A0A;
     /*OVERLAY COLOR SCHEME*/
     --opacity-super-high: .92;
     --opacity-high: .75;
@@ -73,7 +79,32 @@
     color: var(--delta-green);
 }
 
+.gold-metallic {
+    background-color: var(--gold-metallic);
+}
+
+.lemon-curry {
+    background-color: var(--lemon-curry);
+}
+
+.dark-goldenrod {
+    background-color: var(--dark-goldenrod);
+}
+
+.jet {
+    background-color: var(--jet);
+}
+
+.eerie-black {
+    background-color: var(--eerie-black);
+}
+
+.rich-black-fogra {
+    background-color: var(--rich-black-fogra);
+}
+
 /* BACKGROUNDS */
+/*BASIC COLOR*/
 .bg-black {
     background-color: black;
 }
@@ -89,7 +120,7 @@
 .bg-light {
     background-color: var(--light);
 }
-
+/*ALPINE THEME*/
 .bg-sand {
     background-color: var(--sand);
 }
@@ -113,7 +144,31 @@
 .bg-delta-green {
     background-color: var(--delta-green);
 }
+/*DARK & GOLD THEME*/
+.bg-gold-metallic {
+    background-color: var(--gold-metallic);
+}
 
+.bg-lemon-curry {
+    background-color: var(--lemon-curry);
+}
+
+.bg-dark-goldenrod {
+    background-color: var(--dark-goldenrod);
+}
+
+.bg-jet {
+    background-color: var(--jet);
+}
+
+.bg-eerie-black {
+    background-color: var(--eerie-black);
+}
+
+.bg-rich-black-fogra {
+    background-color: var(--rich-black-fogra);
+}
+/*COLOR OVERLAY*/
 .bg-light-overlay-light {
     background-color: rgba(235, 235, 235, 0.45);
 }
