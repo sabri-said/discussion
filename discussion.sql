@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le : lun. 29 juin 2020 à 17:54
+-- Généré le : jeu. 02 juil. 2020 à 14:09
 -- Version du serveur :  8.0.20-0ubuntu0.20.04.1
 -- Version de PHP : 7.4.7
 
@@ -35,47 +35,6 @@ CREATE TABLE `messages` (
   `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Déchargement des données de la table `messages`
---
-
-INSERT INTO `messages` (`id`, `message`, `id_utilisateur`, `date`) VALUES
-(69, 'test', 6, '2020-06-25'),
-(70, 'eddefe', 6, '2020-06-25'),
-(71, 'fefzzefezf', 6, '2020-06-25'),
-(72, 'regz', 6, '2020-06-25'),
-(73, 'zgzg', 6, '2020-06-25'),
-(74, 'zgzeg', 6, '2020-06-25'),
-(75, 'zegzg', 6, '2020-06-25'),
-(76, 'gzegzg', 6, '2020-06-25'),
-(77, 'eeee\r\n', 6, '2020-06-25'),
-(78, 'zgzege', 6, '2020-06-25'),
-(79, 'zgzeg', 6, '2020-06-25'),
-(80, 'zgezg', 6, '2020-06-25'),
-(81, 'ddbdgbf', 6, '2020-06-25'),
-(82, 'dfbdb', 6, '2020-06-25'),
-(83, 'dfbfdb', 6, '2020-06-25'),
-(84, 'fdbdfb', 6, '2020-06-25'),
-(85, 'dfbdfb', 6, '2020-06-25'),
-(86, 'dbfdbfd', 6, '2020-06-25'),
-(110, 'efefzefezf', 6, '2020-06-25'),
-(111, 'fdffddbffdb', 5, '2020-06-25'),
-(112, 'efffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffeee', 5, '2020-06-25'),
-(113, 'efffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffffffffffffffffffffff', 5, '2020-06-25'),
-(114, 'efffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffffffffffffffffffffff', 5, '2020-06-25'),
-(115, 'test1', 6, '2020-06-26'),
-(116, 'eerr\r\n', 6, '2020-06-26'),
-(117, 'efefef', 5, '2020-06-26'),
-(118, 'edzfzefezf', 5, '2020-06-26'),
-(119, 'papapappa\r\n', 5, '2020-06-26'),
-(120, 'test', 5, '2020-06-26'),
-(121, 'ccdecec', 5, '2020-06-26'),
-(122, 'testtest', 5, '2020-06-26'),
-(124, 'hello', 7, '2020-06-29'),
-(125, 'Ca va ? ', 7, '2020-06-29'),
-(126, 'Test scrollbar', 7, '2020-06-29'),
-(127, 'Scrollbar OK', 7, '2020-06-29');
-
 -- --------------------------------------------------------
 
 --
@@ -93,9 +52,9 @@ CREATE TABLE `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id`, `login`, `password`) VALUES
-(5, 'user1', '$2y$10$wT/.odmYrhb9CFF5sobDC.sFDY9FTS2z7V8Uc7q7JRzR26c8nPxta'),
-(6, 'user2', '$2y$10$wT/.odmYrhb9CFF5sobDC.sFDY9FTS2z7V8Uc7q7JRzR26c8nPxta'),
-(7, 'SabriLLe', '$2y$10$UPYAwOlV4Qs9j65Zd0vjiOHKluIDwlafW7449HKe/fouChIMJrF2C');
+(1, 'laplateforme', '$2y$10$wT/.odmYrhb9CFF5sobDC.sFDY9FTS2z7V8Uc7q7JRzR26c8nPxta'),
+(2, 'Sabri', '$2y$10$wT/.odmYrhb9CFF5sobDC.sFDY9FTS2z7V8Uc7q7JRzR26c8nPxta'),
+(3, 'SabriLLe', '$2y$10$UPYAwOlV4Qs9j65Zd0vjiOHKluIDwlafW7449HKe/fouChIMJrF2C');
 
 --
 -- Index pour les tables déchargées
@@ -121,13 +80,13 @@ ALTER TABLE `utilisateurs`
 -- AUTO_INCREMENT pour la table `messages`
 --
 ALTER TABLE `messages`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=128;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT pour la table `utilisateurs`
 --
 ALTER TABLE `utilisateurs`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

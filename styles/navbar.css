@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); */
-    background-color: var(--alpine-blue);
+    background-color: var(--dark);
     height: 10vh;
 }
 
@@ -14,7 +14,7 @@
 .navbar ul li {
     /* font-size: 1.5rem; */
     font-weight: 400;
-    color: var(--delta-green);
+    color: var(--dark-goldenrod);
     /* display: inline-block; */
     padding: 1rem;
     position: relative;
@@ -26,14 +26,14 @@
 
 .navbar ul li:hover {
     cursor: pointer;
-    background-color: var(--chuff-blue);
-    color: var(--magnetic-green);
+    background-color: var(--dark-goldenrod);
+    color: var(--eerie-black);
     transition: 0.2s;
 }
 
-.navbar ul li:nth-child(3):hover {
-    color: var(--light);
-}
+/*.navbar ul li:nth-child(3):hover {*/
+/*    color: var(--light);*/
+/*}*/
 
 .navbar ul li:hover ul {
     display: flex;
@@ -43,10 +43,12 @@
 }
 
 .navbar ul li:hover ul li {
-    background-color: var(--alpine-blue);
+    background-color: var(--lemon-curry);
+    color: var(--eerie-black);
 }
 
 .navbar ul li:hover ul li:hover {
-    background-color: var(--chuff-blue);
+    background-color: var(--eerie-black);
+    color: var(--dark-goldenrod);
     transition: 0.2s ease-in;
 }

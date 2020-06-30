@@ -16,7 +16,7 @@ button {
 
 button span {
     transition: 0.6s;
-    transition-delay: 0.2s;
+    /*transition-delay: 0.2s;*/
 }
 
 button:before {
@@ -25,7 +25,7 @@ button:before {
     width: 100%;
     text-align: center;
     opacity: 0;
-    transition: .4s, opacity .6s;
+    transition: .4s;
 }
 
 button:before {
@@ -40,5 +40,5 @@ button:hover span {
 button:hover:before {
     opacity: 1;
     transform: translate(0, 0);
-    transition-delay: .4s;
+    /*transition-delay: .4s;*/
 }

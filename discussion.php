@@ -1,5 +1,7 @@
 <?php
 
+// todo delete user messages for connected user
+
 session_start();
 
 if (!isset($_SESSION['user'])) {

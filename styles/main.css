@@ -80,27 +80,27 @@
 }
 
 .gold-metallic {
-    background-color: var(--gold-metallic);
+    color: var(--gold-metallic);
 }
 
 .lemon-curry {
-    background-color: var(--lemon-curry);
+    color: var(--lemon-curry);
 }
 
 .dark-goldenrod {
-    background-color: var(--dark-goldenrod);
+    color: var(--dark-goldenrod);
 }
 
 .jet {
-    background-color: var(--jet);
+    color: var(--jet);
 }
 
 .eerie-black {
-    background-color: var(--eerie-black);
+    color: var(--eerie-black);
 }
 
 .rich-black-fogra {
-    background-color: var(--rich-black-fogra);
+    color: var(--rich-black-fogra);
 }
 
 /* BACKGROUNDS */
@@ -271,13 +271,13 @@ textarea:focus {
     outline: 0;
 }
 
-a:hover {
+/*a:hover {
     color: var(--magnetic-green);
 }
 
 a:active {
     color: var(--delta-green);
-}
+}*/
 
 p,
 ul,
@@ -306,8 +306,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--magnetic-green);
-    color: var(--light);
+    background-color: var(--dark-goldenrod);
+    color: var(--jet);
 }
 
 /*FORMS*/
@@ -321,7 +321,7 @@ button:hover {
 
 input:focus,
 textarea:focus {
-    border: 1px solid var(--magnetic-green);
+    border: 1px solid var(--eerie-black);
 }
 
 textarea,

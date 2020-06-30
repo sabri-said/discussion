@@ -10,14 +10,14 @@
     <title>Inscription</title>
 </head>
 <body>
-<?php include 'includes/_header.php'; ?>
+<?php include '_header.php'; ?>
 <main>
-    <div class="signup-section vh-100 row-no-wrap bg-light">
-        <div class="signup-main-container row-no-wrap w-90 h-90 m-auto bx-shad-light b-radius-2 box-shadow-light">
-            <div class="signup-left-container col bg-delta-green bl-radius-2">
-                <h1 class="light m-auto">Inscription</h1>
+    <div class="signup-section vh-90 row-no-wrap bg-jet">
+        <div class="signup-main-container row-no-wrap w-90 h-90 m-auto box-shadow-light">
+            <div class="signup-left-container col bg-eerie-black">
+                <h1 class="dark-goldenrod m-auto">Inscription</h1>
             </div>
-            <div class="signup-right-container col bg-alpine-blue br-radius-2">
+            <div class="signup-right-container col bg-light">
                 <form action="../inscription.php" method="POST"
                       class="col-no-wrap align-items-center justify-content-center">
                     <div class="form-group w-70">
@@ -33,7 +33,7 @@
                         <input class="no-border" id="password-check" name="password-check" type="password" minlength="6" maxlength="10">
                     </div>
                     <div class="form-group w-70 align-items-center">
-                        <button class="btn btn-md mb-05" type="submit" name="signup">S'inscrire</button>
+                        <button class="btn btn-md mb-05 bg-jet dark-goldenrod" type="submit" name="signup">S'inscrire</button>
                         <a class="delta-green" href="../connexion.php">Se connecter</a>
                     </div>
                 </form>

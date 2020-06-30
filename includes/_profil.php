@@ -11,14 +11,14 @@
 </head>
 <body>
 <?php
-include 'includes/_header.php'; ?>
+include '_header.php'; ?>
 <main>
-    <div class="profile-section vh-100 row-no-wrap bg-light">
-        <div class="profile-main-container row-no-wrap w-90 h-90 m-auto bx-shad-light b-radius-2 box-shadow-light">
-            <div class="profile-left-container col bg-delta-green bl-radius-2">
-                <h1 class="light m-auto">Profil</h1>
+    <div class="profile-section vh-90 row-no-wrap bg-jet">
+        <div class="profile-main-container row-no-wrap w-90 h-90 m-auto box-shadow-light">
+            <div class="profile-left-container col bg-eerie-black">
+                <h1 class="dark-goldenrod m-auto">Profil</h1>
             </div>
-            <div class="profile-right-container col bg-alpine-blue br-radius-2">
+            <div class="profile-right-container col bg-light">
                 <form action="../profil.php" method="POST"
                       class="col-no-wrap align-items-center justify-content-center">
                     <div class="form-group w-70">
@@ -36,7 +36,7 @@ include 'includes/_header.php'; ?>
                                placeholder="......">
                     </div>
                     <div class="form-group w-70 align-items-center">
-                        <button class="btn btn-md mb-05" type="submit" name="submit">Valider</button>
+                        <button class="btn btn-md mb-05 bg-jet dark-goldenrod" type="submit" name="submit">Valider</button>
                         <a class="delta-green" href="../logout.php">Se deconnecter</a>
                     </div>
                 </form>
